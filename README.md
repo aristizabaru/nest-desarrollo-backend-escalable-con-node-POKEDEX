@@ -1,0 +1,58 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+</p>
+
+# Nest: Desarrollo backend escalable con Node (POKEDEX)
+
+## Acerca de
+
+Este es un repositorio personal para ejecución del proyecto del curso **NestJS: Desarrollo backend escalable con Node** de **Fernando Herrera** en la plataforma de Udemy. Para acceder al curso completo puede hacer [clic aquí](https://www.udemy.com/course/nest-framework/)
+
+El proyecto desarrollado a continuación explora la creación de un CRUD básico con conexión a una base de datos Mongo para aplicar los conceptos iniciales del framework para backend Nest:
+
+**Conceptos aplicados**
+
+- Controladores
+- Servicios
+- Módulos
+- Pipes
+- DTO
+- Validator Class
+- Importación y exportación de módulos
+
+## Requerimientos
+
+- Node v22.12.0 LTS
+
+## Instalación del proyecto
+
+Para instalar el proyecto siga los siguientes pasos
+
+Instalar módulos o dependencias
+
+```bash
+$ npm install
+```
+
+## Ejecución del proyecto
+
+Para ejecutar el proyecto se deben seguir los siguientes comandos:
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+
+```
+
+### Información adicional
+
+Para aprender más acerca de Nest, visite los siguientes recursos:
+
+- Visite la [documentación de NestJS](https://docs.nestjs.com) para aprender más del framework
+- Para adquirir cursos oficiales de NestJS, haga clic aquí [clic aquí](https://courses.nestjs.com/).
