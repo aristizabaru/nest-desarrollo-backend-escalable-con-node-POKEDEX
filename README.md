@@ -13,6 +13,9 @@ El proyecto desarrollado a continuación explora la creación de un CRUD básico
 **Conceptos aplicados**
 
 - Servir contenido estático
+- Conexión a BD Mongo usando adaptador de NestJS
+- Class Validator
+- Custom Pipes
 
 ## Requerimientos
 
@@ -28,9 +31,24 @@ Instalar módulos o dependencias
 $ npm install
 ```
 
+Instalar Nest CLI (para desarrollo)
+
+```bash
+$ npm i -g @nestjs/cli
+```
+
 ## Ejecución del proyecto
 
-Para ejecutar el proyecto se deben seguir los siguientes comandos:
+Para ejecutar el proyecto se deben seguir los siguientes pasos:
+
+1. Levantar la base de datos
+
+```bash
+# docker
+$ docker compose up -d
+```
+
+2. Correr el proyecto
 
 ```bash
 # development
