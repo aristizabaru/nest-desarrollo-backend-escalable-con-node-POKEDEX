@@ -12,13 +12,7 @@ El proyecto desarrollado a continuación explora la creación de un CRUD básico
 
 **Conceptos aplicados**
 
-- Controladores
-- Servicios
-- Módulos
-- Pipes
-- DTO
-- Validator Class
-- Importación y exportación de módulos
+- Servir contenido estático
 
 ## Requerimientos
 
