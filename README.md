@@ -16,6 +16,8 @@ El proyecto desarrollado a continuación explora la creación de un CRUD básico
 - Conexión a BD Mongo usando adaptador de NestJS
 - Class Validator
 - Custom Pipes
+- SEED
+- Importación de módulos
 
 ## Requerimientos
 
@@ -46,6 +48,12 @@ Para ejecutar el proyecto se deben seguir los siguientes pasos:
 ```bash
 # docker
 $ docker compose up -d
+```
+
+2. Ejecutar el SEED para la carga de datos iniciales en la BD
+
+```
+http://localhost:3000/api/v1/seed
 ```
 
 2. Correr el proyecto
