@@ -50,13 +50,9 @@ Para ejecutar el proyecto se deben seguir los siguientes pasos:
 $ docker compose up -d
 ```
 
-2. Ejecutar el SEED para la carga de datos iniciales en la BD
+2. Copiar el archivo `.env.template` a `.env` y configurar las variables de entorno
 
-```
-http://localhost:3000/api/v1/seed
-```
-
-2. Correr el proyecto
+3. Correr el proyecto
 
 ```bash
 # development
@@ -68,6 +64,12 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 
+```
+
+4. Ejecutar el SEED para la carga de datos iniciales en la BD (modo desarrollo)
+
+```
+http://localhost:3000/api/v1/seed
 ```
 
 ### Información adicional
