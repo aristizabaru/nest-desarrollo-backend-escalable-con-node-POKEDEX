@@ -1,0 +1,7 @@
+dist/
+data/
+.vscode/
+.git/
+node_modules/
+test/
+README.md
